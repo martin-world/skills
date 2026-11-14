@@ -18,19 +18,19 @@ npx skills update                                                      # 更新�
 ```text
 skills/
 ├── docs/                           # Skill 对话示例与效果展示（仅作演示，不随 npx skills 安装）
-│   └── decision-interviewer.md
-├── skills/
+│   └── decision-interviewer.md     # decision-interviewer 完整对话示例
+├── skills/                         # 所有可安装的 Skills（npx skills 默认扫描目录）
 │   └── life-skills/                # 人生决策类
-│       └── decision-interviewer/
-│           └── SKILL.md
-├── .gitignore
-├── LICENSE
-├── README.md
-└── README.en.md
+│       └── decision-interviewer/   # 深度追问决策 Skill
+│           └── SKILL.md            
+├── .gitignore                      
+├── LICENSE                         
+├── README.md                      
+└── README.en.md                  
 ```
 
 ## Skills 列表
 
-| Skill | 分类 | 说明 | 安装命令 |
-| :--- | :--- | :--- | :--- |
-| [`decision-interviewer`](skills/life-skills/decision-interviewer/SKILL.md) | `life-skills`（人生决策类） | 面对纠结决策时，通过单步带选项的追问剥离沉没成本、算清未来前景，直到信息闭环再给出唯一客观决断（[对话示例](docs/decision-interviewer.md)）。 | `npx skills add martin-world/skills --skill decision-interviewer` |
+| Skill | 分类 | 说明 | 示例 | 安装命令 |
+| :--- | :--- | :--- | :--- | :--- |
+| [`decision-interviewer`](skills/life-skills/decision-interviewer/SKILL.md) | `life-skills`（人生决策类） | 面对纠结决策时，通过单步带选项的追问剥离沉没成本、算清未来前景，直到信息闭环再给出唯一客观决断。 | [对话示例](docs/decision-interviewer.md) | `npx skills add martin-world/skills --skill decision-interviewer` |
