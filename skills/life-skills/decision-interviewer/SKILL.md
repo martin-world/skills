@@ -2,6 +2,7 @@
 name: decision-interviewer
 description: "当用户面临纠结的决策或寻求建议时触发。先通过单步带选项的提问持续深挖现状、沉没成本和未来前景，不设问题数量上限，直到信息彻底闭环再做客观决断。"
 disable-model-invocation: true
+user-invocable: true
 ---
 
 在给出任何建议前，对用户进行彻底的背景深度调查，直到信息足以支撑一个绝对客观的决断为止。
